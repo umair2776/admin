@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.poll-container{
+    display: flex;
+}
+.poll{
+    /* width: 170px; */
+display: flex;
+gap: 10px;
+/* justify-content: space-between; */
+margin-top: 70px;
+margin-left: 30px;
+}
+
+.poll span{
+    opacity: 0.5;
+}
+
+.repo-span{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.repo-span p{
+    margin-top: 13px;
+    line-height: 19px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+table, th, td {
+    border-bottom: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    /* background-color: #f2f2f2; */
+}
+.urdu {
+    font-family: 'Nafees Nastaleeq', 'Arial', sans-serif;
+    direction: rtl;
+}
+.table-report td{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.table-report th{
+    font-size: 14px;
+}

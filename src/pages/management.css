@@ -1,0 +1,8 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.manage-container{
+    display: flex;
+}

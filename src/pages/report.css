@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.repo-container{
+    display: flex;
+}
+.repo{
+display: flex;
+gap: 10px;
+margin-top: 70px;
+margin-left: 30px;
+}
+.repo span{
+        opacity: 0.5;
+
+}
+.repo button{
+    background-color: rgb(20 168 0 );
+    height: 35px;
+    width: 130px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(255 255 255 );
+    margin-left: 590px;
+    font-size: 15px;
+}
+.repo-span{
+    margin-left: 30px;
+    margin-top: 15px;
+}

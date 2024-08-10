@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.halka-container{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+   margin-top: 60px;
+   gap: 8px;
+   margin-left: 30px;
+}
+.content p{
+    width: 92%;
+   line-height: 25px;
+}
+.Black{
+    background-color: black;
+    color: aliceblue;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+
+}
+.Box-1{
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+.Box-2{
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+.Box-3{
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+.Box-4{
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+.Box-5{
+    box-shadow: 5px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+}
+.weight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 50px;
+    width: 260px;
+
+}
+.boxes{
+    display: flex;
+margin-left: 45px;
+margin-top: 70px;
+gap: 5px;
+}
+.boxes-2{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 20px;
+    gap: 5px;  
+}
+.boxes:hover{
+    cursor: pointer;
+}
+.boxes-2:hover{
+    cursor: pointer;
+}
+/* <div class="h-[50%] flex justify-center pt-[5%] text-[16px] text-slate-500 font-semibold"><div class="flex flex-row"><div class="ml-1">41</div><div class="text-[#0000ff] text-[11px] pt-1 ml-[130px] mb-2  h-[30px] px-1 rounded-md cursor-pointer hover:text-gray-500">View Report</div></div></div> */
